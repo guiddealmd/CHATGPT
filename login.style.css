@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap'); 
+
+*{   margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #ffffff;
+     font-family: 'Inter', sans-serif; 
+}
+
+
+body{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    color: #000000; 
+    margin: 40px; 
+    font-weight: normal;
+    font-size: 16px; 
+} 
+
+body h1{
+    margin-top: 80px; 
+}
+
+.textfield input{
+
+    width: 320px;
+    border: #0FA47F 1px solid;
+    border-radius: 5px;
+    margin-top: 40px;
+    height: 64px;
+    outline: no;
+}
+
+.textfield label{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #0FA47F;
+}
+
+.btn-continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.btn-continue button{
+    width: 320px;
+    height: 50px;
+    background-color: #0FA47F;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-continue button a{
+    text-decoration: none;
+}
+
+.btn-continue p{
+    
+    margin-top: 20px;
+
+}
+
+.btn-continue img{
+    margin-top: 20px;
+}
+
+.btn-continue a{
+    text-decoration: none;
+    color: #0FA47F;
+}
+
+.checkup{
+    width: 320px;
+    height: 79px;
+    border: #C3C8CF 1px solid;
+    border-radius: 4px;
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkup img{
+    margin-left: 80px;
+}
+
+.checkup p{
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.checkup input{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    color: #C1C1C1
+}
+
+.google button{
+    margin-top: 20px;
+    width: 320px;
+    height: 52px;
+    border-radius: 4px;
+    border: #C1C1C1 1px solid;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.google button img{
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.google p{
+
+
+    margin-right: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.microsoft button{
+    width: 320px;
+    height: 52px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: #C1C1C1 1px solid;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.microsoft button img{
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.microsoft p{
+
+
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
