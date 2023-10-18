@@ -4,52 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.style.css">
+    <title>Main UI</title>
+    <link rel="stylesheet" href="style-main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <title>ChatGPT</title>
 </head>
 
 <body>
-    <div class="main">
-        <div class="left">
-            <button class="newchat">
-                <h1><i class="bi bi-plus"></i> New chat</h1>
-            </button>
-
-            <h2><i class="bi bi-chat-left"></i> Chatbot definition expl</h2>
-
-
+    <div class="left">
+        <button class="new-chat"><i class="bi bi-plus-lg"></i> New Chat</button>
+        <div class="text-box">
+            <i class="bi bi-chat-left"></i>
+            <p>Chatbot definition expl</p>
+            <i class="bi bi-pencil"></i>
+            <i class="bi bi-trash3"></i>
         </div>
 
-        <div class="right">
-            <div class="header">
+        <div class="icons-left">
+            <p>______________________________________________</p>
+            <a href="#"><i class="bi bi-trash3"></i>Clear conversations</a>
+            <a href="#"><i class="bi bi-brightness-high"></i>Light mode</a>
+            <a href="#"><i class="bi bi-discord"></i>OpenAI Discord</a>
+            <a href="#"><i class="bi bi-box-arrow-up-right"></i>Updates & FAQ</a>
+            <a href="#"><i class="bi bi-box-arrow-right"></i>Log out</a>
+        </div>
+    </div>
 
-                <h1><img src="assents/user icon.svg" alt="user"> What is a Chatbot?</h1>
+    <div class="right">
 
+        <div class="question"><i class="bi bi-person"></i>What is a Chatbot?</div>
+
+        <div class="answer">
+            <img src="assents/Avatar ChatGPT.svg" alt="avatar ChatGPT">
+            <div class="text">A chatbot is a computer program that simulates human conversation through voice commands
+                or text chats or both. It can be integrated with various messaging platforms like Facebook Messenger,
+                WhatsApp, WeChat, etc. and can be used for a variety of purposes, such as customer service,
+                entertainment, and e-commerce.
             </div>
+            <div class="rating">
+                <img src="assents/Rating.svg" alt="rating">
+            </div>
+        </div> 
 
-            
-            <h2><img src="assents/Avatar ChatGPT.svg" alt="Avatar ChatGPT"> 
-                <p> A chatbot is a computer program that
-                simulates human conversation through voice commands or text chats or both. It can be integrated with
-                various messaging platforms like Facebook Messenger, WhatsApp, WeChat, etc. and can be used for a
-                variety of purposes, such as customer service, entertainment, and e-commerce. <img src="assents/Rating.svg" alt=""></p>
-            </h2>
-            
-            <button>
-                <p><i class="bi bi-arrow-clockwise"></i> Regenerate response</p>
-            </button>
+        <div class="bottom">
+            <button class="regenerate"><i class="bi bi-arrow-repeat"></i>Regenerate response</button>
 
-
-            <div class="field">
+            <div class="fild">
                 <input type="text">
-               <button><i class="bi bi-caret-right"></i></button>
+                <i class="bi bi-arrow-right-short"></i>
             </div>
-    
 
-            <p>ChatGPT Jan 9 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.</p>
-
+            <p>ChatGPT Jan 9 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to
+                interact with. Your feedback will help us improve.</p>
         </div>
+
     </div>
 
 </body>
