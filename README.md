@@ -33,6 +33,6 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 ## Deploy
 
-O projeto está disponível em [Clone-Sistok no Vercel](chatgpt-chi-silk.vercel.app/) para visualização.
+O projeto está disponível em [Clone-Sistok no Vercel](https://chatgpt-chi-silk.vercel.app/) para visualização.
 
 Seja bem-vindo ao Clone-ChatGPT! 
