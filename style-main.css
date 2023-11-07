@@ -167,6 +167,11 @@ body{
     cursor: pointer;
 }
 
+.regenerate a{
+    color: #ffff;
+    text-decoration: none;
+}
+
 .regenerate i{
     margin-right: 10px;
 
