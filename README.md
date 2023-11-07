@@ -24,7 +24,7 @@ O principal objetivo deste projeto é criar uma página que seja semelhante ao o
 Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes desafios:
 
 - Organização eficiente de elementos em linhas e colunas, visando proporcionar uma experiência de usuário agradável.
-- Utilização de elementos sobrepostos para criar camadas de design envolventes e interessantes.
+
 
 ## Interface
 
